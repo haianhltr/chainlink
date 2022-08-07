@@ -400,6 +400,18 @@ name = "chainlink_dapp"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",
+ "chainlink_solana",
+]
+
+[[package]]
+name = "chainlink_solana"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a1bc07ff7987366d193e8e1913b4aafcb83f919ad71be8c040b420bcedb6339b"
+dependencies = [
+ "borsh",
+ "borsh-derive",
+ "solana-program",
 ]
 
 [[package]]
